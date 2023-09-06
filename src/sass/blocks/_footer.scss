@@ -1,0 +1,35 @@
+.footer{
+    height: 630px;
+    position: relative;
+    &__info{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform:translateX(-50%) ;
+        width: 459px;
+        height: 270px;
+        background-color: $main-color;
+        padding: 50px 68px 60px 68px;
+        text-align: center;
+    }
+    &__addr{
+        font-size: 20px;
+        font-weight: 500;
+        color: $text-w;
+    }
+    &__phone{
+        font-size: 20px;
+        font-weight: 700;
+        color: $text-w;
+        margin: 0 auto;
+        line-height: 20px;
+    }
+    &__social{
+        margin-top: 36px;
+    }
+    &__social-item{
+        &:nth-child(2){
+            padding: 0 36px;
+        }
+    }
+}
