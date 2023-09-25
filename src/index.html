@@ -24,7 +24,7 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button data-midal="consultation" class="button">заказать звонок</button>
+                    <button data-modal="consultation" class="button">заказать звонок</button>
                 </div>
             </header>
             <div class="promo__wrapper">
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <button data-midal="order" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+            <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
             <div class="promo__link">
                 или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
             </div>
@@ -429,7 +429,7 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required type="text" placeholder="Ваше имя" >
+                <input minlength="5" name="name" required type="text" placeholder="Ваше имя" >
                 <input name="phone" required type="tel" placeholder="Ваш телефон" >
                 <input name="email" required type="email" placeholder="Ваш E-mail" >
 
