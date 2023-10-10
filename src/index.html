@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Document</title>
 </head>
@@ -51,7 +52,7 @@
 
             <button data-modal="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
             <div class="promo__link">
-                или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                или <a href="#catalog-chose">ПЕРЕЙТИ В КАТАЛОГ</a>
             </div>
         </div>
         </div>
@@ -66,9 +67,9 @@
                     <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом,  так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/heart.png" alt="heart" class="advantages__icon">
+                    <img src="icons/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
-                    <div class="advantages__descr">Мы работаем для того,  чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                    <div class="advantages__descr">Мы работаем для того,  чтобы  Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
                 <div class="advantages__item">
                     <img src="icons/shoe.png" alt="shoe" class="advantages__icon">
@@ -113,7 +114,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section id="catalog-chose" class="catalog">
         <div class="container">
             <h2 class="title">Каталог пульсометров</h2>
             <ul class="catalog__tabs">
@@ -383,7 +384,7 @@
     <div class="reviews">
         <div class="container">
             <div class="title title_rev">отзывы клиентов</div>
-            <div class="reviews__inner">
+            <div class="reviews__inner animate__fadeInUp animate__animated wow" data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="image/photo/photo_1.png" alt="" class="reviews__img">
                 <div class="reviews-info">
                     <div class="reviews-info__title">Ирина Иванченко </div>
@@ -392,7 +393,7 @@
                          Спасибо, RunSmart! </div>
                 </div>
             </div>
-            <div class="reviews__inner">
+            <div class="reviews__inner animate__fadeInUp animate__animated wow"data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="image/photo/photo_2.png" alt="" class="reviews__img">
                 <div class="reviews-info">
                     <div class="reviews-info__title">Иван Сёмочкин</div>
@@ -400,7 +401,7 @@
                     <div class="reviews-info__descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал.<br>  Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.<br><br>С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                 </div>
             </div>
-            <div class="reviews__inner">
+            <div class="reviews__inner  animate__fadeInUp animate__animated wow"data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="image/photo/photo_3.png" alt="" class="reviews__img">
                 <div class="reviews-info">
                     <div class="reviews-info__title">Юлия Дашкина</div>
@@ -464,6 +465,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+		<script src="js/wow.min.js"></script>
     <script src="js/script.js" ></script>   
 </body>
 </html>
